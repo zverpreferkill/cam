@@ -1,11 +1,3 @@
-export default (req, res) => {
-  const date = new Date().toISOString()
-    .replace(/T/, ' ')
-    .replace(/\..+/, '') 
-
-  res.json({ date })
-}
-
 // Для асинхронной работы используется пакет micro.
 const { json } = require('micro');
 
