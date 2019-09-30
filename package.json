@@ -3,10 +3,12 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "start":"micro"
   },
   "dependencies": {
     "next": "^9.0.2",
+    "micro":"^9.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
