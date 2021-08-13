@@ -7,7 +7,7 @@
     "start":"micro"
   },
   "dependencies": {
-    "next": "^9.0.2",
+    "next": "^11.1.0",
     "micro":"^9.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
